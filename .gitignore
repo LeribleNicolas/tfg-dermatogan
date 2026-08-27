@@ -1,0 +1,39 @@
+# --- Entornos ---
+venv/
+**/venv/
+env/
+.conda/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Datos (no se versionan: HAM10000 es CC BY-NC y pesa ~2-3 GB) ---
+datos/
+data/
+*.zip
+
+# --- Pesos y checkpoints de modelos (no van en Git) ---
+*.pkl
+*.pt
+*.pth
+
+# --- Salidas de experimentos, entrenamientos y figuras ---
+experimentos/
+runs/
+out/
+outputs/
+**/out/
+*.mp4
+
+# --- Sistema / editores ---
+desktop.ini
+Thumbs.db
+.DS_Store
+*.bak
+*.deb
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Basura de git que el montaje no permitió borrar (elimínala a mano)
+_basura_git/
